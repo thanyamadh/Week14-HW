@@ -6,7 +6,7 @@ NODE::NODE(int x)
 {
   size=x;
   next=NULL;
-  cout<<" **Adding "<<x<<" **"<<endl;
+  cout<<" **Adding "<<x<<"**"<<endl;
 }
 
 NODE:: ~NODE()

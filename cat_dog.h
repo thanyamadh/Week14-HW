@@ -1,13 +1,3 @@
-//
-//  cat_dog.h
-//  LLC1
-//
-//  Created by 6272 on 22/3/2562 BE.
-//  Copyright © 2562 6272. All rights reserved.
-//
-/*#ifndef cat_dog_h
-#define cat_dog_h*/
-
 class cat:public NODE
 {
   int size;

@@ -4,9 +4,6 @@ using namespace std;
 #include"NODE.h"
 #include"cat_dog.h"
 #include"LL.h"
-/*1.Create a constructor & Destructor according to its type.   */
-
-/*4.Create a snap_finger (in LL class or in class inherited from LL) to randomly delete half of the node */
 
 int main(int argc, char *argv[])
 {
@@ -18,7 +15,6 @@ int main(int argc, char *argv[])
   cout <<"\n====Construct===="<< endl;
   for(i=1;i<argc;i=i+3) 
   {
-    cout<<argv[i];
     if(argv[i]==ct)
       t=new cat(atoi(argv[i+1]),atoi(argv[i+2]));
     else  
